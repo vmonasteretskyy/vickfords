@@ -1,0 +1,364 @@
+@media(min-width:1400px) {
+    .container {
+        max-width: 1350px;
+    }
+}
+
+@media(max-width:1700.8px) {
+    .upbtn.custombtn {
+        right: 4%;
+    }
+}
+
+@media(max-width:1600.8px) {
+
+    header.header,
+    .header__contentwrap {
+        height: 80px;
+    }
+
+    .header__contactlink {
+        height: 80px;
+        width: 240px;
+    }
+
+    .header__logo img {
+        height: 60px;
+    }
+
+    .header__logo {
+        max-width: 26%;
+        flex: 0 0 26%;
+    }
+
+    .maiinsection__textbox .subtitle {
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 46px;
+        line-height: normal;
+    }
+
+    .maiinsection__textbox {
+        padding-top: 120px;
+    }
+
+    .maiinsection__pic {
+        height: 750px;
+    }
+
+    .maiinsection {
+        height: 950px;
+    }
+
+    .maiinsection__pic .mousescroll {
+        bottom: 510px;
+    }
+
+    .mainslider:after {
+        height: 50px;
+        width: 240px;
+    }
+
+    .mainslider {
+        padding-top: 50px;
+    }
+
+    .mainslider .slick-arrow {
+        height: 50px;
+        width: 120px;
+    }
+
+    .mainslider .slick-prev.slick-arrow {
+        right: 115px;
+    }
+
+    .companysmission__slider .pagingInfo {
+        height: 50px;
+    }
+
+    .benefits {
+        padding: 150px 0;
+    }
+
+    .benefit__info {
+        margin-bottom: 35px;
+    }
+
+    .scroll-slider {
+        margin-top: 70px;
+    }
+
+    .scrslidebox__pic {
+        height: 300px;
+    }
+
+    .scrslidebox__text {
+        height: 100px;
+    }
+
+    .scrslidebox .back .title {
+        margin-bottom: 30px;
+    }
+
+    .scrslidebox .back .descr {
+        height: 150px;
+    }
+
+    .scrslidebox .back {
+        padding-top: 55px;
+    }
+
+    .services__container:after {
+        height: calc(100% - 100px);
+    }
+
+    .our-projects {
+        padding: 230px 0 150px 0;
+    }
+
+    .contactus__container {
+        padding: 70px 0;
+    }
+
+    .footer__topsect {
+        padding: 45px 70px 45px 0;
+    }
+
+    footer.footer nav ul li a {
+        font-size: 16px;
+    }
+
+    .footer__bottline p {
+        font-size: 14px;
+    }
+
+    .upbtn.custombtn {
+        right: 30px;
+        top: 55px;
+    }
+
+    .companysmission {
+        margin-top: -386px;
+    }
+
+
+
+
+
+
+
+    .companysmission-container,
+    .services__container {
+        padding-top: 70px;
+    }
+
+    .companysmission__descr {
+        margin-bottom: 40px;
+    }
+
+    .companysmission__slider {
+        margin-top: 40px;
+    }
+
+    .benefits {
+        margin-top: -50px;
+    }
+
+
+}
+
+@media(max-width:1400.8px) {
+    .header__logo {
+        max-width: 22%;
+        flex: 0 0 22%;
+    }
+
+    .header__contactlink {
+        width: 200px;
+    }
+
+    .mainslider__slide {
+        height: 550px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .header__leftmenu ul li a,
+    .header__rightmenu ul li a,
+    .header__contactlink {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1300.8px) {
+    .upbtn.custombtn {
+        right: 0;
+    }
+}
+
+@media(max-width:1199.8px) {
+    .upbtn.custombtn {
+        display: none;
+    }
+
+    footer.footer nav ul li {
+        margin-right: 30px;
+    }
+
+    footer.footer .custombtn {
+        width: 170px;
+    }
+}
+
+@media(max-width:1024.8px) {
+
+    .header__leftmenu,
+    .header__rightmenu,
+    .header__contactlink {
+        display: none;
+    }
+
+    .header__logo {
+        max-width: initial;
+        flex: initial;
+        width: auto;
+    }
+
+    .burgerbtn {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header.header .container {
+        position: relative;
+    }
+
+    .burgerbtn img {
+        width: 30px;
+    }
+
+
+
+}
+
+@media(max-width:991.8px) {
+
+    .companysmission-container,
+    .services__container {
+        padding-top: 50px;
+    }
+
+    .section-subtitle {
+        margin-bottom: 10px;
+    }
+
+    h3,
+    .section-title,
+    .benefits .section-title,
+    .our-projects .section-title {
+        margin-bottom: 30px;
+    }
+
+    .mainslider__slide {
+        height: 400px;
+    }
+
+    .benefits {
+        padding: 120px 0;
+    }
+
+    .benefits__description {
+        margin-bottom: 40px;
+    }
+
+    .benefitsicsect {
+        margin-top: 50px;
+    }
+
+    .benefit__info {
+        margin-bottom: 25px;
+    }
+
+    .frame ul li {
+        width: 340px;
+    }
+
+    .our-projects {
+        margin-top: -100px;
+    }
+
+    .our-projects {
+        padding: 170px 0 150px 0;
+    }
+
+    .conform {
+        padding-right: 50px;
+        padding-top: 0;
+    }
+
+    .mailpic {
+        display: none;
+    }
+
+    footer.footer .custombtn {
+        margin-top: 30px;
+    }
+
+}
+
+@media(max-width:767.8px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-height:900px) {
+    .maiinsection__textbox {
+        padding-top: 150px;
+    }
+
+    .maiinsection__textbox .subtitle {
+        margin-bottom: 30px;
+    }
+
+    .mousescroll {
+        bottom: 530px;
+    }
+}
+
+@media(max-height:800px) {}
