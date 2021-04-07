@@ -143,11 +143,49 @@
         margin-top: -386px;
     }
 
+    .aboutus-fscreen h1 {
+        font-size: 46px;
+        margin-bottom: 80px;
+    }
+
+    .aboutus-fscreen .subtitle {
+        margin-bottom: 30px;
+    }
+
+    .header__leftmenu,
+    .header__rightmenu {
+        width: 100%;
+        max-width: 37%;
+        flex: 0 0 37%;
+    }
+
+    .aboutus__quote {
+        margin: 45px auto;
+    }
+
+    .aboutus-infobox {
+        height: 600px;
+    }
+
+    .aboutus-infobox__textblock .subtitle {
+        margin-bottom: 20px;
+    }
+
+    .aboutus-infobox__textblock .title {
+        margin-bottom: 40px;
+    }
+
+    .aboutus-infobox__textblock {
+        padding: 80px 100px;
+    }
 
 
 
 
-
+    .aboutus-sescrsect,
+    .aboutus-infoboxex {
+        padding: 70px 0;
+    }
 
     .companysmission-container,
     .services__container {
@@ -167,6 +205,12 @@
     }
 
 
+}
+
+@media(max-width:1500.8px) {
+    .upbtn.custombtn {
+        display: none;
+    }
 }
 
 @media(max-width:1400.8px) {
@@ -220,6 +264,14 @@
     footer.footer .custombtn {
         width: 170px;
     }
+
+    .header__rightmenu ul li:first-child {
+        margin-right: 70px;
+    }
+
+
+
+
 }
 
 @media(max-width:1024.8px) {
@@ -261,6 +313,131 @@
 
     .burgerbtn img {
         width: 30px;
+    }
+
+    .frame ul li {
+        width: 350px;
+    }
+
+    .mobilemenu.show {
+        display: flex;
+    }
+
+    .mobilemenu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #031722;
+        z-index: 99;
+        padding: 0 20px;
+        align-items: center;
+        justify-content: center;
+        overflow: auto;
+        background-image: url('../img/menubg.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .mobilemenu__wrap {
+        height: 100%;
+        overflow: auto;
+        width: 100%;
+        padding: 50px 0;
+    }
+
+
+    .mobilemenu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .mobilemenu ul li {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .mobilemenu ul li a {
+        display: inline-block;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 0.02em;
+        font-size: 22px;
+        line-height: 22px;
+        font-family: 'Akrobat-semibold sans-serif';
+    }
+
+    .mobilemenu ul li.active a {
+        color: #D3AB75;
+    }
+
+    .mobcontbtn,
+    .mobcontbtn:hover {
+        width: 234px;
+        height: 60px;
+        background: #D3AB75;
+        display: flex;
+        margin: 30px auto 0;
+        align-items: center;
+        justify-content: center;
+        color: #122223;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 22px;
+        font-family: 'Akrobat-semibold sans-serif';
+        text-decoration: none;
+        margin-top: 80px;
+    }
+
+    .mobilemenu__close {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        padding: 0;
+        position: absolute;
+        left: 30px;
+        top: 30px;
+        outline: none !important;
+    }
+
+    .mobilemenu__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobilemenu {
+        display: flex;
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+    }
+
+    .mobilemenu.show {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+
+    .aboutus-infobox__textblock {
+        padding: 60px 50px;
+    }
+
+    .aboutus-infobox {
+        height: 500px;
     }
 
 
@@ -330,11 +507,326 @@
         margin-top: 30px;
     }
 
+    .scroll-slider {
+        padding-right: 30px;
+    }
+
+    .aboutus-fscreen {
+        padding-top: 80px;
+    }
+
+    .aboutus__quote p {
+        font-size: 36px;
+    }
+
+    .aboutus-infobox__textblock .title {
+        margin-bottom: 20px;
+    }
+
+    .aboutus-infobox__textblock .subtitle {
+        margin-bottom: 10px;
+    }
+
+
+
+
+    .aboutus-sescrsect,
+    .aboutus-infoboxex {
+        padding: 50px 0;
+    }
+
+    .aboutus-fscreen .subtitle {
+        margin-bottom: 20px;
+    }
 }
 
-@media(max-width:767.8px) {}
+@media(max-width:767.8px) {
+    .footer__logo {
+        margin-bottom: 20px;
+    }
+
+    .footer__topsect {
+        padding-right: 30px;
+    }
+
+    footer.footer nav ul li {
+        margin-right: 22px;
+    }
+
+    .aboutus-infobox__pic {
+        position: relative;
+        width: 100%;
+    }
+
+    .aboutus-infobox {
+        display: block;
+        height: auto;
+    }
 
 
+}
+
+@media(max-width:575.8px) {
+
+    header.header,
+    .header__contentwrap {
+        height: 60px;
+    }
+
+    .header__logo img {
+        height: 45px;
+    }
+
+    .maiinsection {
+        height: 550px;
+    }
+
+    .maiinsection__pic .mousescroll {
+        display: none;
+    }
+
+    .maiinsection__pic {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: normal;
+    }
+
+    .maiinsection__pic .maiinsection__textbox {
+        padding-top: 0;
+    }
+
+    .section-subtitle {
+        margin-bottom: 5px;
+    }
+
+    .custombtn {
+        font-size: 16px;
+    }
+
+    .mainslider:after {
+        width: 160px;
+    }
+
+    .mainslider .slick-arrow {
+        width: 80px;
+    }
+
+    .mainslider .slick-prev.slick-arrow {
+        right: 80px;
+    }
+
+    .mainslider .slick-prev.slick-arrow {
+        background-position: center right 15px;
+    }
+
+    .mainslider .slick-next.slick-arrow {
+        background-position: center left 15px;
+    }
+
+    .mainslider__slide {
+        height: 300px;
+    }
+
+    .section-subtitle:before {
+        width: 15px;
+    }
+
+    .section-subtitle {
+        padding-left: 25px;
+    }
+
+    .benefits .custombtn {
+        padding: 12px 30px;
+    }
+
+    .benefit__info .picbox {
+        max-width: 70px;
+        flex: 0 0 70px;
+    }
+
+    .benefit__info .descrbox {
+        padding-left: 20px;
+        padding-top: 0;
+    }
+
+    .benefit__info {
+        margin-bottom: 40px;
+    }
+
+    .frame ul li {
+        width: 280px;
+    }
+
+    .scroll-slider {
+        padding-right: 0;
+    }
+
+    .scrslidebox__pic {
+        height: 240px;
+    }
+
+    .scrslidebox__text {
+        height: 70px;
+    }
+
+    .scrslidebox__text p {
+        font-size: 16px;
+    }
+
+    .scrslidebox .back {
+        padding: 25px 20px 30px 25px;
+    }
+
+    .scrslidebox .back a {
+        width: 150px;
+        height: 42px;
+    }
+
+    .scrslidebox .back .descr {
+        height: 134px;
+    }
+
+    .services__container:after {
+        height: calc(100% - 70px);
+    }
+
+    .our-projects {
+        padding: 150px 0 50px 0;
+    }
+
+    .conform,
+    .footer__topsect {
+        padding-right: 0;
+    }
+
+
+    .conform input {
+        height: 46px;
+        margin-bottom: 25px;
+        padding-left: 20px;
+    }
+
+    .conform textarea {
+        margin-bottom: 25px;
+        padding-left: 20px;
+    }
+
+    .footer__logo {
+        margin: 0 auto 20px;
+    }
+
+    footer.footer nav ul li {
+        display: block;
+        text-align: center;
+        margin: 0 0 10px 0;
+    }
+
+    footer nav {
+        width: 100%;
+    }
+
+    footer.footer .custombtn {
+        margin: 20px auto 0;
+    }
+
+    .footer__bottline p {
+        font-size: 12px;
+    }
+
+    .mobilemenu ul li a {
+        font-size: 18px;
+    }
+
+    .mobilemenu ul li {
+        margin-bottom: 30px;
+    }
+
+    .mobilemenu__close {
+        top: 20px;
+        left: 20px;
+    }
+
+    .aboutus-fscreen h1 {
+        font-size: 32px;
+    }
+
+    .aboutus__quote {
+        background-size: 40px;
+        padding-left: 55px;
+    }
+
+    .aboutus__quote p {
+        font-size: 32px;
+    }
+
+    .aboutus__quote {
+        margin: 25px auto;
+    }
+
+    .aboutus-infobox__textblock {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .aboutus-infobox__textblock .title {
+        font-size: 28px;
+    }
+
+    .aboutus-infobox:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+
+    .benefits,
+    .contactus__container {
+        padding: 50px 0;
+    }
+
+    .scrslidebox .back .descr p {
+        font-size: 14px;
+    }
+
+    .companysmission__slider .pagingInfo {
+        font-size: 16px;
+    }
+
+    h3,
+    .section-title,
+    .benefits .section-title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .companysmission,
+    .benefits,
+    .services,
+    .contact-us {
+        margin-top: 0;
+    }
+
+    .companysmission,
+    .services,
+    .contact-us,
+    footer {
+        padding-right: 0 !important;
+    }
+
+    .companysmission-container,
+    .services__container,
+    .contactus__container,
+    .footer__container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+
+}
 
 
 
@@ -361,4 +853,9 @@
     }
 }
 
-@media(max-height:800px) {}
+@media(max-height:500px) {
+    .mobilemenu__wrap {
+        display: block;
+        margin-top: 100px;
+    }
+}

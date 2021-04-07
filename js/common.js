@@ -100,4 +100,16 @@ $(document).ready(function () {
     })(jQuery)
 
 
+    // mob menu
+
+    $('.burgerbtn').click(function () {
+        $('.mobilemenu').addClass('show');
+        $('body').css('overflow', 'hidden');
+    });
+
+    $('.mobilemenu__close').click(function () {
+        $('.mobilemenu').removeClass('show');
+        $('body').css('overflow', 'initial')
+    });
+
 });

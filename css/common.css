@@ -1,5 +1,6 @@
 /* General */
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 @font-face {
     font-family: 'Akrobat-bold sans-serif';
@@ -918,21 +919,188 @@ footer.footer nav ul li a:hover {
     display: none;
 }
 
+.mobilemenu {
+    display: none;
+}
 
+/* ABOUT US */
 
+.aboutus-fscreen {
+    position: relative;
+    padding: 120px 0 0 0;
+}
 
+.aboutus-fscreen:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: calc(100% - 80px);
+    background: #031722;
+}
 
+.aboutus-fscreen .container {
+    position: relative;
+    z-index: 2;
+}
 
+.aboutus-fscreen .subtitle {
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 44px;
+}
 
+.aboutus-fscreen .subtitle span {
+    position: relative;
+    padding-left: 45px;
+}
 
+.aboutus-fscreen .subtitle span:before {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 25px;
+    background: #D3AB75;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
 
+.aboutus-fscreen h1 {
+    font-family: 'Akrobat-extrabold sans-serif';
+    font-size: 54px;
+    line-height: 130%;
+    text-align: center;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    color: #D3AB75;
+    margin: 0 0 120px 0;
+}
 
+.aboutus-fscreen h1 span {
+    color: #fff;
+}
 
+.aboutus-fscreen .mainslider:after {
+    background: #082534;
+}
 
+.aboutus-sescrsect {
+    padding: 85px 0 125px 0;
+}
 
+.aboutus-sescrsect p {
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+}
 
+.aboutus__quote {
+    max-width: 1095px;
+    margin: 70px auto;
+    padding-left: 110px;
+    position: relative;
+    background-image: url('../img/qoute-2.svg');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
 
+.aboutus__quote p {
+    font-size: 40px;
+    line-height: 120%;
+    color: #373737;
+    font-family: 'Great Vibes', cursive;
+    margin: 0;
+}
 
+.aboutus-infoboxex {
+    padding: 100px 0;
+    background: #F6F5F0;
+}
+
+.aboutus-infobox {
+    position: relative;
+    height: 740px;
+    display: flex;
+    align-items: center;
+}
+
+.aboutus-infobox__pic {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.aboutus-infobox__textblock {
+    position: relative;
+    z-index: 3;
+    background: #F6F5F0;
+    padding: 98px 113px;
+
+}
+
+.aboutus-infobox__textblock .subtitle {
+    position: relative;
+    padding-left: 45px;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+    color: #07212F;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.aboutus-infobox__textblock .subtitle:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    position: absolute;
+    background: #D3AB75;
+}
+
+.aboutus-infobox__textblock .title {
+    font-family: 'Akrobat-extrabold sans-serif';
+    font-size: 34px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #031722;
+    margin-bottom: 58px;
+}
+
+.aboutus-infobox__textblock .descr {
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+}
+
+.aboutus-infobox__textblock .descr p:last-child {
+    margin-bottom: 0;
+}
+
+.aboutus-infoboxex .aboutus-infobox:nth-child(even) {
+    direction: rtl;
+}
+
+.aboutus-infoboxex .aboutus-infobox:nth-child(even) .aboutus-infobox__pic {
+    right: initial;
+    left: 0;
+}
+
+.contact-us.mt0 {
+    margin-top: 0;
+}
 
 
 
@@ -948,4 +1116,6 @@ font-family: 'Karla', sans-serif;
     font-family: 'Akrobat sans-serif';
     font-family: 'Akrobat-extrabold sans-serif';
     font-family: 'Akrobat-semibold sans-serif';
+
+    font-family: 'Great Vibes', cursive;
 */
