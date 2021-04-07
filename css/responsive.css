@@ -53,7 +53,7 @@
     }
 
     .maiinsection__pic .mousescroll {
-        bottom: 510px;
+        bottom: 250px;
     }
 
     .mainslider:after {
@@ -589,7 +589,9 @@
         height: 100%;
         display: flex;
         align-items: center;
-        padding: 0 15px;
+        /* padding: 0 15px; */
+        padding: 0;
+        overflow: hidden;
     }
 
     h1 {
@@ -848,9 +850,9 @@
         margin-bottom: 30px;
     }
 
-    .mousescroll {
+    /* .mousescroll {
         bottom: 530px;
-    }
+    } */
 }
 
 @media(max-height:500px) {
