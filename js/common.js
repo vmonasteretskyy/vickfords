@@ -1,21 +1,24 @@
 $(document).ready(function () {
-    var windowWidth = $(document).width(),
+    var windowWidth = $('body').width(),
         containerWidth = $('.container').width(),
-        paddingContainer = ((windowWidth - containerWidth) / 2)
+        paddingContainer = ((windowWidth - containerWidth) / 2);
+    console.log(windowWidth);
+    console.log(containerWidth);
+    console.log(paddingContainer);
     // right
-    $('.companysmission, .services, .contact-us, footer').css('padding-right', paddingContainer)
+    $('.companysmission, .services, .contact-us, footer, .missionfscr__wrap, .servicesmainpic__wrap').css('padding-right', paddingContainer)
     // left
-    $('.companysmission-container, .services__container, .contactus__container, .footer__container').css('padding-left', paddingContainer);
+    $('.companysmission-container, .services__container, .contactus__container, .footer__container, .missionfscr-container, .servicesmainpic__container').css('padding-left', paddingContainer);
 
 
     $(window).resize(function () {
-        var windowWidth = $(document).width(),
+        var windowWidth = $('body').width(),
             containerWidth = $('.container').width(),
             paddingContainer = ((windowWidth - containerWidth) / 2)
         // right
-        $('.companysmission, .services, .contact-us, footer').css('padding-right', paddingContainer)
+        $('.companysmission, .services, .contact-us, footer, .missionfscr__wrap, .servicesmainpic__wrap').css('padding-right', paddingContainer)
         // left
-        $('.companysmission-container, .services__container, .contactus__container, .footer__container').css('padding-left', paddingContainer);
+        $('.companysmission-container, .services__container, .contactus__container, .footer__container, .missionfscr-container, .servicesmainpic__container').css('padding-left', paddingContainer);
     });
 
 

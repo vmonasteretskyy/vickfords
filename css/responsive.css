@@ -179,11 +179,52 @@
         padding: 80px 100px;
     }
 
+    .missionfscr__wrap {
+        padding-top: 300px;
+    }
+
+    .moredetails {
+        padding: 70px 0 0 0;
+    }
+
+    .moredetails .companysmission__slider {
+        margin-top: 100px;
+    }
+
+    .servicesmainpic__container {
+        padding-top: 70px;
+    }
+
+    .service__descr {
+        padding: 45px 60px 40px 60px;
+    }
+
+    .service__descr .title {
+        margin-bottom: 30px;
+    }
+
+    .service__pic {
+        min-height: initial;
+        min-height: 400px;
+    }
+
+    .service__box {
+        margin-bottom: 50px;
+    }
+
+    .service__descr .descr p {
+        margin-bottom: 20px;
+    }
+
+
+
+
 
 
 
     .aboutus-sescrsect,
-    .aboutus-infoboxex {
+    .aboutus-infoboxex,
+    .missionfscr-container {
         padding: 70px 0;
     }
 
@@ -202,6 +243,14 @@
 
     .benefits {
         margin-top: -50px;
+    }
+
+    .subtitle-center {
+        margin-bottom: 30px;
+    }
+
+    .missionfscr-container h1 {
+        margin-bottom: 50px;
     }
 
 
@@ -269,6 +318,9 @@
         margin-right: 70px;
     }
 
+    .servicesmainpic__container {
+        padding-bottom: 410px;
+    }
 
 
 
@@ -527,6 +579,38 @@
         margin-bottom: 10px;
     }
 
+    .missionfscr-container {
+        padding-right: 20px;
+    }
+
+    .moredetails .companysmission__slider {
+        margin-top: 60px;
+    }
+
+    .servicesmainpic__container {
+        padding-top: 50px;
+        padding-right: 15px;
+    }
+
+    .servicesmainpic__container h1 {
+        margin-bottom: 30px;
+    }
+
+    .subtitle-center {
+        margin-bottom: 20px;
+    }
+
+    .service__descr {
+        padding: 35px 40px 30px 40px;
+    }
+
+
+
+
+
+
+
+
 
 
 
@@ -562,6 +646,32 @@
         display: block;
         height: auto;
     }
+
+    .companysmission-container,
+    .services__container {
+        padding-right: 15px;
+    }
+
+    .missionfscr__wrap {
+        padding-top: 200px;
+    }
+
+    .service__box {
+        flex-wrap: wrap;
+    }
+
+    .service__pic,
+    .service__descr {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .service__pic {
+        min-height: initial;
+        height: 300px;
+    }
+
+
 
 
 }
@@ -805,6 +915,76 @@
         margin-bottom: 20px;
     }
 
+    .mission-fscreen>img {
+        position: relative;
+        height: auto;
+    }
+
+    .missionfscr__wrap {
+        padding-top: 0;
+    }
+
+    .subtitle-center span {
+        padding-left: 25px;
+    }
+
+    .subtitle-center span:after {
+        width: 18px;
+    }
+
+    .subtitle-center {
+        margin-bottom: 20px;
+    }
+
+    .missionfscr-container h1 {
+        margin-bottom: 30px;
+    }
+
+    .moredetails {
+        padding-top: 50px;
+    }
+
+    .servicesmainpic img {
+        position: relative;
+        height: auto;
+    }
+
+    .servicesmainpic__wrap {
+        padding-top: 0;
+    }
+
+    .subtitle-center span:after {
+        top: 9px;
+    }
+
+    .servicesmainpic__container {
+        padding-bottom: 335px;
+    }
+
+    .services-list {
+        margin-top: -300px;
+    }
+
+    .service__descr {
+        padding: 30px 20px 30px 20px;
+    }
+
+    .service__box {
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
+    .missionfscr-container {
+        padding: 50px 0;
+    }
+
     .companysmission,
     .benefits,
     .services,
@@ -815,14 +995,18 @@
     .companysmission,
     .services,
     .contact-us,
-    footer {
+    footer,
+    .missionfscr__wrap,
+    .servicesmainpic__wrap {
         padding-right: 0 !important;
     }
 
     .companysmission-container,
     .services__container,
     .contactus__container,
-    .footer__container {
+    .footer__container,
+    .missionfscr-container,
+    .servicesmainpic__container {
         padding-left: 15px !important;
         padding-right: 15px !important;
     }
