@@ -216,6 +216,28 @@
         margin-bottom: 20px;
     }
 
+    .projectsfscr,
+    .aboutus-fscreen {
+        padding-top: 100px;
+    }
+
+    .projectsfscr h1 {
+        margin-bottom: 80px;
+        font-size: 46px;
+    }
+
+    .projectsfscr {
+        height: 850px;
+    }
+
+    .projectslists {
+        margin-top: -535px;
+    }
+
+
+
+
+
 
 
 
@@ -245,7 +267,8 @@
         margin-top: -50px;
     }
 
-    .subtitle-center {
+    .subtitle-center,
+    .projectsfscr .subtitle {
         margin-bottom: 30px;
     }
 
@@ -295,6 +318,12 @@
     }
 }
 
+@media(max-width:1399.8px) {
+    .projectslists {
+        margin-top: -547px;
+    }
+}
+
 @media(max-width:1300.8px) {
     .upbtn.custombtn {
         right: 0;
@@ -320,6 +349,10 @@
 
     .servicesmainpic__container {
         padding-bottom: 410px;
+    }
+
+    .projectslists {
+        margin-top: -559px;
     }
 
 
@@ -492,7 +525,26 @@
         height: 500px;
     }
 
+    .projectslists {
+        margin-top: -477px;
+    }
 
+    .projectsfscr {
+        height: 750px;
+    }
+
+    .custpagination ul li {
+        margin-right: 20px;
+    }
+
+    .custpagination ul li a,
+    .custpagination ul li span {
+        font-size: 18px;
+    }
+
+    .custpagination {
+        margin: 50px 0;
+    }
 
 }
 
@@ -604,9 +656,15 @@
         padding: 35px 40px 30px 40px;
     }
 
+    .projectslists {
+        margin-top: -486px;
+    }
 
-
-
+    .custombtn {
+        width: 164px;
+        height: 44px;
+        font-size: 16px;
+    }
 
 
 
@@ -671,8 +729,44 @@
         height: 300px;
     }
 
+    .projectsfscr {
+        height: auto;
+    }
 
+    .projectslists {
+        margin-top: 0;
+    }
 
+    .projectsfscr {
+        padding-bottom: 100px;
+    }
+
+    .projectsfscr h1 {
+        margin-bottom: 0;
+    }
+
+    .projectslists {
+        padding-top: 50px;
+    }
+
+    .projectsfscr .subtitle {
+        margin-bottom: 20px;
+    }
+
+    .projectslists .aboutus-infobox .descr {
+        margin-bottom: 30px;
+    }
+
+    .custpagination ul li a,
+    .custpagination ul li span {
+        font-size: 16px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .custpagination ul li {
+        margin-right: 15px;
+    }
 
 }
 
@@ -973,10 +1067,27 @@
         margin-bottom: 30px;
     }
 
+    .projectsfscr h1 {
+        font-size: 32px;
+    }
 
+    .projectsfscr {
+        padding: 70px 0;
+    }
 
+    .projectslists .aboutus-infobox:first-child .aboutus-infobox__textblock {
+        background: #fff;
+    }
 
+    .projectslists .aboutus-infobox:first-child .subtitle,
+    .projectslists .aboutus-infobox:first-child .title,
+    .projectslists .aboutus-infobox:first-child .descr {
+        color: #07212F;
+    }
 
+    .projectslists .aboutus-infobox:first-child .custombtn:after {
+        background: #fff;
+    }
 
 
 
