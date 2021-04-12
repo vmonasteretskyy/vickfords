@@ -234,19 +234,39 @@
         margin-top: -535px;
     }
 
+    .breadcrumbs {
+        margin-bottom: 50px;
+    }
 
+    #tymodal .title {
+        font-size: 46px;
+    }
 
+    #tymodal .descr {
+        margin-bottom: 50px;
+    }
 
+    #tymodal .modal-dialog {
+        max-width: 600px;
+    }
 
+    #tymodal .modal-body {
+        padding: 55px 40px;
+    }
 
-
+    #tymodal .close {
+        top: 20px;
+        right: 20px;
+    }
 
 
 
 
     .aboutus-sescrsect,
     .aboutus-infoboxex,
-    .missionfscr-container {
+    .missionfscr-container,
+    .mission-fscreen.openpr .missionfscr-container,
+    .aftsldescr {
         padding: 70px 0;
     }
 
@@ -536,6 +556,25 @@
     .custpagination ul li {
         margin-right: 20px;
     }
+
+    .mission-fscreen.openpr .missionfscr-container {
+        padding-right: 15px;
+    }
+
+    .breadcrumbs ul li {
+        font-size: 14px;
+    }
+
+    .breadcrumbs {
+        margin-bottom: 30px;
+    }
+
+    .mission-fscreen.error .custombtn {
+        margin-top: 50px;
+    }
+
+
+
 
     .custpagination ul li a,
     .custpagination ul li span {
@@ -1089,10 +1128,34 @@
         background: #fff;
     }
 
+    .aftsldescr {
+        padding: 30px 0;
+    }
+
+    .mission-fscreen.error>img {
+        position: relative;
+    }
+
+    #tymodal .title {
+        font-size: 32px;
+    }
+
+    #tymodal .descr {
+        margin-bottom: 30px;
+    }
+
+    #tymodal .close {
+        top: 15px;
+        right: 15px;
+    }
 
 
 
-    .missionfscr-container {
+
+
+
+    .missionfscr-container,
+    .mission-fscreen.openpr .missionfscr-container {
         padding: 50px 0;
     }
 

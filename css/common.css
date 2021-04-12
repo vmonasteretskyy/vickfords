@@ -1473,6 +1473,139 @@ footer.footer nav ul li a:hover {
     color: #D3AB75;
 }
 
+.mission-fscreen.openpr .missionfscr-container {
+    padding: 54px 0 175px 0;
+}
+
+
+.breadcrumbs {
+    margin-bottom: 100px;
+}
+
+.breadcrumbs ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+.breadcrumbs ul li {
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    margin-right: 40px;
+}
+
+.breadcrumbs ul li:last-child {
+    margin-right: 0;
+}
+
+.breadcrumbs ul li a {
+    color: #fff;
+}
+
+.breadcrumbs ul li:after {
+    content: '/';
+    display: inline-block;
+    position: absolute;
+    right: -26px;
+    color: #D3AB75;
+
+}
+
+.breadcrumbs ul li:last-child::after {
+    display: none;
+}
+
+.aftsldescr {
+    padding: 120px 0 100px 0;
+}
+
+.aftsldescr p {
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    font-family: 'Karla', sans-serif;
+}
+
+.mission-fscreen.error>img {
+    width: 90%;
+    height: calc(100% - 70px);
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: absolute;
+    right: 0;
+}
+
+.mission-fscreen.error .custombtn {
+    margin: 70px auto 0;
+}
+
+#tymodal .modal-dialog {
+    max-width: 772px;
+}
+
+#tymodal .modal-content {
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    background-image: url(../img/bgpic.png);
+}
+
+#tymodal .close {
+    opacity: 1;
+    position: absolute;
+    right: 33px;
+    top: 33px;
+    z-index: 2;
+    outline: none;
+}
+
+#tymodal .modal-body {
+    text-align: center;
+    padding: 89px 50px;
+}
+
+#tymodal .title {
+    font-family: 'Akrobat-extrabold sans-serif';
+    color: #FFFFFF;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    font-size: 54px;
+    line-height: 130%;
+    margin-bottom: 15px;
+}
+
+#tymodal .descr {
+    margin-bottom: 70px;
+}
+
+
+#tymodal .descr p {
+    font-size: 16px;
+    line-height: 150%;
+    font-family: 'Karla', sans-serif;
+    color: #C8C8C8;
+}
+
+#tymodal .descr p:last-child {
+    margin-bottom: 0;
+}
+
+#tymodal .custombtn {
+    margin: 0 auto;
+}
+
+
+
+
 
 
 
